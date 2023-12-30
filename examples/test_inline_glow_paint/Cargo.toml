@@ -12,6 +12,6 @@ publish = false
 [dependencies]
 eframe = { path = "../../crates/eframe" }
 env_logger = { version = "0.10", default-features = false, features = [
-    "auto-color",
-    "humantime",
+  "auto-color",
+  "humantime",
 ] }

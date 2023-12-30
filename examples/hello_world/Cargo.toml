@@ -10,13 +10,13 @@ publish = false
 
 [dependencies]
 eframe = { path = "../../crates/eframe", features = [
-    "__screenshot", # __screenshot is so we can dump a screenshot using EFRAME_SCREENSHOT_TO
+  "__screenshot", # __screenshot is so we can dump a screenshot using EFRAME_SCREENSHOT_TO
 ] }
 
 # For image support:
 egui_extras = { path = "../../crates/egui_extras", features = ["image"] }
 
 env_logger = { version = "0.10", default-features = false, features = [
-    "auto-color",
-    "humantime",
+  "auto-color",
+  "humantime",
 ] }
